@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.condition.*;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
@@ -16,11 +17,15 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import javax.annotation.Resource;
 
+/**
+ * 生产环境不激活
+ */
 @Configuration
 @ConditionalOnClass(EnableSwagger2.class)
 @ConditionalOnWebApplication
 @ConditionalOnProperty(SwaggerProperties.PREFIX+".name")
 @EnableConfigurationProperties(SwaggerProperties.class)
+@Profile({"dev","test","predeploy"})
 @EnableSwagger2
 public class SwaggerAutoConfiguration {
     @Resource
