@@ -1,4 +1,4 @@
-package com.yazuo.intelligent.swagger.autoconfig;
+package com.zero.scvzerng.swagger.autoconfig;
 
 import io.swagger.annotations.Api;
 import org.springframework.boot.autoconfigure.condition.*;

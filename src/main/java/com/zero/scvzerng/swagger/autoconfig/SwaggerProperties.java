@@ -1,4 +1,4 @@
-package com.yazuo.intelligent.swagger.autoconfig;
+package com.zero.scvzerng.swagger.autoconfig;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
