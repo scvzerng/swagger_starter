@@ -24,6 +24,7 @@
 - 生产环境无效
 - 只有在name有值时才有效
 - 只扫描标注了@Api注解的Controller
+- `http://ip:port/swagger-ui.html`访问文档地址
 
 
                        

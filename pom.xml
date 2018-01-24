@@ -38,9 +38,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>com.yazuo.intelligent</groupId>
+                <groupId>com.zero.scvzerng</groupId>
                 <artifactId>dependencies</artifactId>
-                <version>CRM.S0</version>
+                <version>SCVZERNG.S0</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
