@@ -3,7 +3,7 @@
 - 添加依赖
 
             <dependency>
-                <groupId>com.yazuo.intelligent</groupId>
+                <groupId>com.zero.scvzerng</groupId>
                 <artifactId>swagger-starter</artifactId>
                 <version>${version}</version>
             </dependency>
@@ -15,8 +15,8 @@
 
           swagger:
             email: 842494771@qq.com
-            name: 小雅智能标品
-            description: 小雅智能标品
+            name: XXX项目
+            description: XXX项目描述
             version: 1.0 
             
 > 提示
